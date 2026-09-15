@@ -8,7 +8,7 @@ import torch
 
 # --- CONFIGURACIÓN DE PÁGINA (TEMA TERMINATOR) ---
 st.set_page_config(
-    page_title="SYSTEM T-800 // TARGETING HUD",
+    page_title="SYSTEM TERMINATOR // TARGETING HUD",
     page_icon="🤖",
     layout="wide",
 )
@@ -102,7 +102,7 @@ if model:
             "OBJETIVOS MAXIMOS", 10, 2000, 1000, 10
         )
 
-    st.markdown("### 👁️ SENSOR DE OPTICA Y CAMARA TACTICA")
+    st.markdown("### 👁️ SENSOR DE OPTICA Y CAMARA TACTICA, PROHÍBIDO EL ACCESO A ORGANISMOS VIVOS")
     picture = st.camera_input("INICIAR CAPTURA DE OBJETIVO", key="camera")
 
     if picture:
