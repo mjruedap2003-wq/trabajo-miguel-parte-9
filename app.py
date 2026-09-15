@@ -86,7 +86,7 @@ ORGANISMOS_VIVOS = {
 }
 
 # Encabezado HUD Terminator
-st.title("🤖 CYBERDYNE SYSTEMS // MODEL T-800")
+st.title("🤖 CYBERDYNE SYSTEMS // MODEL TERMINATOR")
 st.caption("SYSTEM STATUS: ONLINE // TACTICAL VISUAL SCANNER v800.42")
 
 with st.spinner("Cargando matriz de visión táctica YOLOv5..."):
